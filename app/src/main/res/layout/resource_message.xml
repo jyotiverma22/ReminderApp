@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:src="@drawable/sms2icon"
+            android:id="@+id/cimage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="message"
+            android:id="@+id/tvtitle"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cimage"
+            android:layout_marginTop="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/tvdate"
+            android:layout_below="@+id/tvtitle"
+            android:layout_alignLeft="@+id/tvtitle"
+            android:layout_alignStart="@+id/tvtitle" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/tvtime"
+            android:layout_below="@+id/tvtitle"
+            android:layout_toRightOf="@+id/tvdate"
+            android:layout_toEndOf="@+id/tvdate"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

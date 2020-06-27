@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/reminder"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/list"
+            android:title="To do List" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/sms2icon"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/mail2icon"
+            android:title="Email" />
+    </group>
+    <group >
+        <item
+            android:id="@+id/nav_bin"
+            android:icon="@drawable/delete"
+            android:title="Recycle Bin" />
+        </group>
+
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/about"
+                android:title="About Me" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mail to" />
+        </menu>
+    </item>
+
+</menu>
